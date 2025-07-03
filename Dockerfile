@@ -14,4 +14,4 @@ EXPOSE 8000
 ENV DENO_ENV=production
 
 # Run the application
-CMD ["deno run", "--allow-net", "--allow-env", "--allow-read", "server.ts"]
+CMD ["deno", "run", "--allow-net", "--allow-env", "--allow-read", "server.ts"]
